@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investment Memorandum — FABIAN</title>
+<meta name="description" content="FABIAN — Premium still water in glass for HoReCa CIS. Investment Memorandum, Series A.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cobalt: #1B3A8E;
+  --gold: #C9A961;
+  --ink: #0A0E27;
+  --cream: #F8F6F0;
+  --paper: #ffffff;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--cream); color: var(--ink); -webkit-font-smoothing: antialiased; }
+body { font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14.5px; line-height: 1.65; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Cormorant Garamond', 'Times New Roman', serif; font-weight: 500; color: var(--cobalt); margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: 44px; line-height: 1.1; }
+h2 { font-size: 30px; line-height: 1.15; margin-top: 0; }
+h3 { font-size: 21px; color: var(--cobalt); margin-top: 1.8em; margin-bottom: .6em; font-weight: 600; }
+h4 { font-size: 16px; color: var(--gold); margin-top: 1.4em; margin-bottom: .5em; text-transform: uppercase; letter-spacing: .12em; font-family: 'Manrope', sans-serif; font-weight: 700; }
+p { margin: 0 0 1em; }
+strong { color: var(--ink); font-weight: 700; }
+em { color: #2a2e47; }
+hr { border: 0; border-top: 1px solid rgba(27,58,142,.18); margin: 3em 0; }
+a { color: var(--cobalt); text-decoration: none; border-bottom: 1px solid rgba(27,58,142,.25); }
+a:hover { border-bottom-color: var(--gold); color: var(--gold); }
+ul, ol { margin: 0 0 1em; padding-left: 1.6em; }
+li { margin-bottom: .35em; }
+blockquote { margin: 1.4em 0; padding: .9em 1.3em; border-left: 3px solid var(--gold); background: rgba(201,169,97,.07); color: #2a2e47; font-style: italic; }
+code, pre { font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 12.5px; }
+pre { background: #f1eee5; padding: 1em 1.2em; border-radius: 4px; overflow-x: auto; border-left: 3px solid var(--cobalt); }
+code { background: rgba(27,58,142,.06); padding: 2px 5px; border-radius: 3px; }
+pre code { background: transparent; padding: 0; }
+table { width: 100%; border-collapse: collapse; margin: 1.3em 0; font-size: 13.5px; background: #fff; border: 1px solid rgba(27,58,142,.14); }
+th, td { padding: .65em .9em; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(27,58,142,.08); }
+th { background: var(--cobalt); color: #fff; font-weight: 600; font-size: 12.5px; letter-spacing: .04em; text-transform: uppercase; border-bottom: 1px solid var(--cobalt); }
+tr:last-child td { border-bottom: 0; }
+tr:nth-child(even) td { background: rgba(248,246,240,.4); }
+
+.page-wrap { max-width: 880px; margin: 0 auto; padding: 60px 56px 80px; background: var(--paper); box-shadow: 0 30px 80px rgba(10,14,39,.08); }
+
+/* Cover page */
+.cover { min-height: 1080px; background: linear-gradient(140deg, var(--cobalt) 0%, #0F2456 100%); color: #fff; margin: 0 -56px 0; padding: 80px 80px; position: relative; overflow: hidden; }
+.cover::before { content: ''; position: absolute; inset: 24px; border: 1px solid rgba(201,169,97,.35); pointer-events: none; }
+.cover-logo { width: 64px; height: 64px; }
+.cover-eyebrow { font-size: 11px; letter-spacing: .35em; text-transform: uppercase; color: var(--gold); margin: 60px 0 20px; font-weight: 600; }
+.cover h1 { color: #fff; font-size: 64px; line-height: 1.05; margin-bottom: .3em; font-weight: 400; }
+.cover .sub { font-family: 'Cormorant Garamond', serif; font-size: 26px; color: rgba(255,255,255,.82); font-style: italic; margin-bottom: 60px; max-width: 620px; }
+.cover-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 30px 40px; margin: 80px 0 0; max-width: 680px; }
+.cover-meta dt { font-size: 10.5px; letter-spacing: .25em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.cover-meta dd { margin: 0; font-size: 16px; color: #fff; }
+.cover-divider { width: 60px; height: 1px; background: var(--gold); margin: 50px 0; }
+.cover-footer { position: absolute; bottom: 60px; left: 80px; right: 80px; display: flex; justify-content: space-between; align-items: flex-end; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.55); }
+.cover-conf { position: absolute; top: 80px; right: 80px; font-size: 10px; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(201,169,97,.5); padding: 8px 14px; }
+
+/* TOC */
+.toc { padding: 70px 0 40px; page-break-before: always; }
+.toc-eyebrow { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; font-weight: 600; }
+.toc h2 { font-size: 36px; margin-bottom: 40px; }
+.toc ol { list-style: none; padding: 0; margin: 0; }
+.toc li { margin: 0; }
+.toc a { display: flex; align-items: baseline; gap: 24px; padding: 14px 0; border-bottom: 1px dashed rgba(27,58,142,.18); color: var(--ink); }
+.toc a:hover { color: var(--cobalt); border-bottom-color: var(--gold); }
+.toc-num { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); width: 36px; flex-shrink: 0; }
+.toc-title { font-size: 15.5px; }
+
+/* Chapters */
+.chapter { padding-top: 30px; }
+.chapter-header { margin: 40px 0 30px; padding-bottom: 18px; border-bottom: 2px solid var(--gold); }
+.chapter-num { font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; font-weight: 700; }
+
+/* Print button (screen only) */
+.print-btn {
+  position: fixed; top: 24px; right: 24px; z-index: 100;
+  background: var(--cobalt); color: #fff; border: 0;
+  padding: 14px 22px; font-size: 12px; letter-spacing: .15em; text-transform: uppercase; font-weight: 600;
+  cursor: pointer; box-shadow: 0 14px 30px rgba(27,58,142,.35);
+  font-family: 'Manrope', sans-serif; transition: all .25s;
+}
+.print-btn:hover { background: var(--gold); transform: translateY(-2px); }
+.print-btn::before { content: '↓ '; color: var(--gold); }
+.print-btn:hover::before { color: var(--cobalt); }
+
+@media print {
+  body { background: #fff; font-size: 10pt; line-height: 1.5; }
+  .page-wrap { max-width: none; padding: 0; box-shadow: none; }
+  .print-btn { display: none !important; }
+  .cover { page-break-after: always; min-height: 100vh; margin: 0; }
+  .toc { page-break-after: always; padding: 0; }
+  .chapter { page-break-before: always; padding-top: 0; }
+  h1 { font-size: 28pt; }
+  h2 { font-size: 20pt; }
+  h3 { font-size: 14pt; }
+  h4 { font-size: 11pt; }
+  table { font-size: 9pt; page-break-inside: avoid; }
+  tr { page-break-inside: avoid; }
+  pre, blockquote { page-break-inside: avoid; }
+  a { color: var(--ink); border: 0; }
+  @page { margin: 24mm 22mm; size: A4; }
+  @page :first { margin: 0; }
+}
+</style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">Скачать PDF</button>
+<div class="page-wrap">
+
+<section class="cover">
+  <div class="cover-conf">Конфиденциально</div>
+  <div class="cover-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-label="FABIAN">
+  <!-- Каллиграфическое написание fabian — приближение к товарному знаку № 648525 Роспатент.
+       Финальная версия требует векторных исходников LenaMcCoder Branding. -->
+  <style>
+    .fabian-mark {
+      font-family: 'Tangerine', 'Pinyon Script', 'Allura', 'Lucida Calligraphy', cursive;
+      font-weight: 700;
+      font-size: 56px;
+      fill: #1B3A8E;
+      letter-spacing: -0.02em;
+    }
+  </style>
+  <text x="32" y="44" text-anchor="middle" class="fabian-mark">fabian</text>
+</svg></div>
+  <div class="cover-eyebrow">FABIAN · Series A</div>
+  <h1>Investment<br>Memorandum</h1>
+  <div class="cover-divider"></div>
+  <div class="sub">Премиальная негазированная столовая вода в стекле для HoReCa СНГ. Раунд $4–5M (опционально $8M).</div>
+  <dl class="cover-meta">
+    <div><dt>Дата выпуска</dt><dd>Май 2026</dd></div>
+    <div><dt>Этап</dt><dd>Series A · Post-prototype</dd></div>
+    <div><dt>Валюта</dt><dd>₽ · USD (₽90 / $1)</dd></div>
+    <div><dt>Аудитория</dt><dd>Квалифицированные инвесторы</dd></div>
+    <div><dt>Контактное лицо</dt><dd>Идрис Аслан Анзорович</dd></div>
+    <div><dt>Телефоны</dt><dd>+7 (969) 795-55-55<br>+7 (925) 203-77-77</dd></div>
+    <div><dt>E-mail</dt><dd>aslankaa@yandex.ru</dd></div>
+    <div><dt>Сайт</dt><dd>aslankaa.com</dd></div>
+  </dl>
+  <div class="cover-footer">
+    <span>FABIAN · 2026</span>
+    <span>Investment Memorandum · v1.0</span>
+  </div>
+</section>
+
+<section class="toc">
+  <div class="toc-eyebrow">Содержание</div>
+  <h2>Структура меморандума</h2>
+  <ol>
+    <li><a href="#fabian-премиальная-негазированная-столовая-вода-в-стекле-для-horeca-снг"><span class="toc-num">01</span><span class="toc-title">FABIAN — Премиальная негазированная столовая вода в стекле для HoReCa СНГ</span></a></li><li><a href="#1-конфиденциальность-и-дисклеймер"><span class="toc-num">02</span><span class="toc-title">1. КОНФИДЕНЦИАЛЬНОСТЬ И ДИСКЛЕЙМЕР</span></a></li><li><a href="#2-executive-summary"><span class="toc-num">03</span><span class="toc-title">2. EXECUTIVE SUMMARY</span></a></li><li><a href="#3-investment-highlights"><span class="toc-num">04</span><span class="toc-title">3. INVESTMENT HIGHLIGHTS</span></a></li><li><a href="#4-описание-компании"><span class="toc-num">05</span><span class="toc-title">4. ОПИСАНИЕ КОМПАНИИ</span></a></li><li><a href="#5-рынок"><span class="toc-num">06</span><span class="toc-title">5. РЫНОК</span></a></li><li><a href="#6-конкурентный-ландшафт"><span class="toc-num">07</span><span class="toc-title">6. КОНКУРЕНТНЫЙ ЛАНДШАФТ</span></a></li><li><a href="#7-бизнес-модель"><span class="toc-num">08</span><span class="toc-title">7. БИЗНЕС-МОДЕЛЬ</span></a></li><li><a href="#8-использование-средств-use-of-funds"><span class="toc-num">09</span><span class="toc-title">8. ИСПОЛЬЗОВАНИЕ СРЕДСТВ (USE OF FUNDS)</span></a></li><li><a href="#9-финансовый-прогноз-3-сценария-5-лет"><span class="toc-num">10</span><span class="toc-title">9. ФИНАНСОВЫЙ ПРОГНОЗ (3 СЦЕНАРИЯ, 5 ЛЕТ)</span></a></li><li><a href="#10-условия-сделки-term-sheet-preview"><span class="toc-num">11</span><span class="toc-title">10. УСЛОВИЯ СДЕЛКИ (TERM SHEET PREVIEW)</span></a></li><li><a href="#11-exit-сценарии"><span class="toc-num">12</span><span class="toc-title">11. EXIT-СЦЕНАРИИ</span></a></li><li><a href="#12-команда"><span class="toc-num">13</span><span class="toc-title">12. КОМАНДА</span></a></li><li><a href="#13-риски-и-митигация"><span class="toc-num">14</span><span class="toc-title">13. РИСКИ И МИТИГАЦИЯ</span></a></li><li><a href="#14-контакты"><span class="toc-num">15</span><span class="toc-title">14. КОНТАКТЫ</span></a></li><li><a href="#15-приложения"><span class="toc-num">16</span><span class="toc-title">15. ПРИЛОЖЕНИЯ</span></a></li>
+  </ol>
+</section>
+
+<section id="fabian-премиальная-негазированная-столовая-вода-в-стекле-для-horeca-снг" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 01</div><h2>FABIAN — Премиальная негазированная столовая вода в стекле для HoReCa СНГ</h2></div>
+<p><strong>Series A — основной раунд $7,5M (Base СНГ), $4,5M (Conservative-минимум), опционально $13M (Stretch)</strong></p>
+<p><strong>Дата выпуска:</strong> май 2026
+<strong>Валюта расчётов в меморандуме:</strong> российский рубль (₽) и доллар США ($, USD)
+<strong>Курс модели:</strong> ₽90 / $1 (пересмотр ежеквартально)</p>
+<p><strong>Подготовлено для квалифицированных инвесторов</strong>
+<strong>Заказчик:</strong> Абдул-Хаким Ахмадович Кагиров
+<strong>Правообладатель ТЗ:</strong> ООО «Группа Компаний Центр»
+<strong>Координатор проекта:</strong> Идрис Аслан Анзорович
+<strong>Email:</strong> aslankaa@yandex.ru
+<strong>Телефоны:</strong> +7 (969) 795-55-55, +7 (925) 203-77-77
+<strong>Сайт:</strong> aslankaa.com</p>
+<hr>
+</section><section id="1-конфиденциальность-и-дисклеймер" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 02</div><h2>1. КОНФИДЕНЦИАЛЬНОСТЬ И ДИСКЛЕЙМЕР</h2></div>
+<h3>1.1. Статус документа</h3>
+<p>Настоящий Инвестиционный Меморандум (далее — «Меморандум», «IM») является конфиденциальным документом, подготовленным исключительно для квалифицированных инвесторов и их уполномоченных консультантов с целью предварительной оценки инвестиционной возможности в проект FABIAN (далее — «Проект», «Компания»).</p>
+<p>Меморандум не является:
+- публичной офертой по смыслу ст. 437 ГК РФ;
+- проспектом эмиссии ценных бумаг;
+- инвестиционной рекомендацией;
+- юридическим, налоговым или аудиторским заключением.</p>
+<p>Окончательные условия сделки, включая структуру, оценку, объём раунда и условия инвестиционного соглашения (Subscription Agreement, Shareholders' Agreement), фиксируются исключительно подписанными юридически обязывающими документами после проведения due diligence.</p>
+<h3>1.2. Ограничения распространения</h3>
+<p>Получатель обязуется:
+1. Сохранять конфиденциальность всей информации, содержащейся в Меморандуме, в течение 24 месяцев с даты получения.
+2. Не передавать документ третьим лицам без письменного согласия Заказчика.
+3. Использовать информацию исключительно для целей оценки инвестиционной возможности.
+4. По первому требованию вернуть или уничтожить все копии Меморандума.</p>
+<h3>1.3. Forward-looking statements</h3>
+<p>Меморандум содержит прогнозные заявления (forward-looking statements) о будущем финансовом состоянии, выручке, EBITDA, доле рынка и прочих показателях. Эти заявления основаны на допущениях, актуальных на дату подготовки документа, и подвержены рискам, описанным в Разделе 13. Фактические результаты могут существенно отличаться от прогнозных.</p>
+<h3>1.4. Ответственность</h3>
+<p>Ни Заказчик, ни консультанты, ни иные лица, участвовавшие в подготовке Меморандума, не несут ответственности за решения, принятые получателем на основании содержащейся в нём информации. Каждый инвестор обязан провести собственную независимую проверку (independent due diligence) и при необходимости привлечь внешних консультантов.</p>
+<hr>
+</section><section id="2-executive-summary" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 03</div><h2>2. EXECUTIVE SUMMARY</h2></div>
+<h3>2.1. Сжатая суть инвестиционной возможности</h3>
+<p>FABIAN — премиальный бренд негазированной столовой воды в стекле, разработанный для канала HoReCa (рестораны, отели, премиальные кейтеринги) на рынке СНГ с фокусом на Москву и Санкт-Петербург на старте. Проект построен на трёх параллельно открывшихся окнах:</p>
+<ol>
+<li><strong>Уход международных премиум-брендов</strong> (Evian, Perrier, S.Pellegrino, Acqua Panna) с российской HoReCa-полки в 2022–2025 годах оставил незанятым сегмент ёмкостью около ₽12 млрд в год (SAM по финансовому аудиту 11.05.2026; ранее заявлявшиеся ₽18 млрд скорректированы в сторону консервативной оценки).</li>
+<li><strong>Запрет PET-упаковки в HoReCa Москвы с 1 сентября 2025 года</strong> делает стеклянный формат не «выбором», а единственно допустимым форматом в премиальном сегменте.</li>
+<li><strong>Зарегистрированный товарный знак FABIAN с 2018 года</strong>, права на дизайн (LenaMcCoder) и Halal-сертификация с первого дня дают защищённый барьер входа.</li>
+</ol>
+<p>Запрашиваемый раунд: <strong>$7,5M (Base СНГ, Series A)</strong> — пилот в Москве и Санкт-Петербурге плюс выход в Алматы Y2 и СНГ-/ОАЭ-канал Y3. Conservative-минимум — $4,5M (узкий пилот МСК+СПб). Stretch — $13M (ускоренный сценарий с одновременным запуском в 4 городах и собственной линией розлива).</p>
+<h3>2.2. Ключевые факты</h3>
+<table>
+<thead>
+<tr>
+<th>Показатель</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Этап</td>
+<td>Series A (post-prototype, pre-revenue)</td>
+</tr>
+<tr>
+<td>Размер раунда (Base СНГ)</td>
+<td><strong>$7,5M</strong> (tranching $3M + $3M + $1,5M)</td>
+</tr>
+<tr>
+<td>Размер раунда (Conservative-минимум)</td>
+<td>$4,5M</td>
+</tr>
+<tr>
+<td>Размер раунда (Stretch)</td>
+<td>$13M</td>
+</tr>
+<tr>
+<td>Pre-money valuation (Base)</td>
+<td>$18M</td>
+</tr>
+<tr>
+<td>Доля инвестора (Base)</td>
+<td>~29%</td>
+</tr>
+<tr>
+<td>Структура</td>
+<td>JV в Dubai DMCC + ООО-операционка в РФ</td>
+</tr>
+<tr>
+<td>Tax residency</td>
+<td>Dubai DMCC (0% корпоративный налог при квалификации)</td>
+</tr>
+<tr>
+<td>Y5 Net Revenue (Base)</td>
+<td>₽8,64 млрд</td>
+</tr>
+<tr>
+<td>Y5 EBITDA margin (Base)</td>
+<td>22,6%</td>
+</tr>
+<tr>
+<td>Payback period</td>
+<td>3,7 года</td>
+</tr>
+<tr>
+<td>IRR (5 лет)</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>NPV @ 18% (5 лет)</td>
+<td>$11,3M</td>
+</tr>
+<tr>
+<td>Terminal Enterprise Value (Y5, 6,5× EBITDA)</td>
+<td>$140M</td>
+</tr>
+<tr>
+<td>Exit-горизонт</td>
+<td>5–7 лет</td>
+</tr>
+<tr>
+<td>Exit-сценарии</td>
+<td>M&amp;A (стратеги) или IPO (MOEX/AIX)</td>
+</tr>
+</tbody>
+</table>
+<h3>2.3. Почему сейчас (Why Now)</h3>
+<ul>
+<li><strong>Окно полки:</strong> освободившиеся SKU в Aman, Four Seasons, Lotte, Метрополь, Cafe Pushkin, Novikov Group и др. до сих пор закрыты временными решениями (армянская и грузинская вода в стекле без бренда премиум-уровня).</li>
+<li><strong>Регуляторное давление:</strong> запрет PET в HoReCa Москвы (с 01.09.2025), готовящееся расширение на Санкт-Петербург и города-миллионники.</li>
+<li><strong>Импортозамещение премиум-уровня:</strong> государственная и корпоративная риторика поддерживает локальные премиальные бренды.</li>
+<li><strong>Ритейл-слот:</strong> Halal-первый-день открывает доступ к этническому премиальному сегменту (Чечня, Дагестан, Татарстан, Башкортостан, Москва-халяль-HoReCa, экспорт в ОАЭ/КСА через DMCC).</li>
+</ul>
+<h3>2.4. Запрашиваемые действия</h3>
+<ol>
+<li>Подписание NDA и получение полного data room.</li>
+<li>Term sheet в течение 4–6 недель с даты получения IM.</li>
+<li>Closing Q3 2026.</li>
+<li>Старт операций (пилот МСК+СПб) — Q4 2026.</li>
+</ol>
+<hr>
+</section><section id="3-investment-highlights" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 04</div><h2>3. INVESTMENT HIGHLIGHTS</h2></div>
+<ol>
+<li>
+<p><strong>Защищённый IP-актив с 2018 года.</strong> Зарегистрированный товарный знак FABIAN (правообладатель — ГК «Центр») закрывает классы 32 (безалкогольные напитки) и 35 (продвижение). Дизайн бутылки и этикетки разработан LenaMcCoder, права передаются в JV.</p>
+</li>
+<li>
+<p><strong>Двойное регуляторное окно.</strong> Уход Evian / Perrier / S.Pellegrino + запрет PET в HoReCa МСК с 01.09.2025 — комбинация двух независимых триггеров спроса.</p>
+</li>
+<li>
+<p><strong>Halal-первый-день.</strong> Сертификат Halal не «потом добавим», а built-in: открывает рынок 25+ млн потребителей-мусульман в РФ и экспорт в ОАЭ/КСА/Кувейт через DMCC.</p>
+</li>
+<li>
+<p><strong>Гибридная бизнес-модель.</strong> Старт через прямой контракт-розлив (asset-light), переход на собственную линию + франшизный розлив в регионах — capital-efficient.</p>
+</li>
+<li>
+<p><strong>Синергия с проектом «Чапан».</strong> Сеть супермаркетов халяль того же основателя обеспечивает гарантированный стартовый retail-канал и кросс-промо.</p>
+</li>
+<li>
+<p><strong>Команда с операционным опытом FMCG/HoReCa СНГ.</strong> Доступ к decision-makers сетевой розницы и шеф-сомелье через личные связи основателя.</p>
+</li>
+<li>
+<p><strong>Сильный unit economics.</strong> Расчётная gross margin Y3 — 58%, EBITDA Y5 — 22,6%, payback 3,7 года при консервативных допущениях.</p>
+</li>
+<li>
+<p><strong>Готовая стратегия выхода.</strong> Стратегические покупатели в РФ и СНГ идентифицированы (Coca-Cola HBC Russia, Multon Partners, IDS Borjomi); IPO на MOEX/AIX как альтернативный сценарий.</p>
+</li>
+<li>
+<p><strong>Структура DMCC + РФ-операционка.</strong> Защита от санкционных и валютных рисков, упрощённая дивидендная политика, готовность к экспорту.</p>
+</li>
+<li>
+<p><strong>Минимальный технологический риск.</strong> Производство воды — зрелая технология; критический вес — бренд, дистрибуция и B2B-продажи. Это управляемые риски.</p>
+</li>
+</ol>
+<hr>
+</section><section id="4-описание-компании" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 05</div><h2>4. ОПИСАНИЕ КОМПАНИИ</h2></div>
+<h3>4.1. Юридическая структура (target post-closing)</h3>
+<pre><code>                 +----------------------------+
+                 |  FABIAN HOLDING (DMCC, UAE)|
+                 |   JV-холдинговая компания  |
+                 +-------------+--------------+
+                               |
+                  +------------+-------------+
+                  |                          |
+        +---------+---------+      +---------+---------+
+        | ООО &quot;Фабиан РУС&quot;  |      | Fabian MENA FZ-LLC|
+        | Операционка РФ    |      | (опц.) экспорт ОАЭ|
+        +-------------------+      +-------------------+
+</code></pre>
+<ul>
+<li><strong>FABIAN Holding (DMCC, Dubai)</strong> — JV-холдинг, держатель товарного знака и брендовых прав, контракты с инвесторами, дивидендная политика.</li>
+<li><strong>ООО «Фабиан РУС»</strong> — операционная компания РФ, контракты с розливщиком, дистрибуция, продажи HoReCa.</li>
+<li><strong>Fabian MENA FZ-LLC</strong> (опционально, активируется при выходе на ОАЭ/КСА).</li>
+</ul>
+<h3>4.2. Акционерная структура (target post-Series A, Base)</h3>
+<table>
+<thead>
+<tr>
+<th>Акционер</th>
+<th>Доля</th>
+<th>Вклад</th>
+<th>Тип бумаги</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ГК «Центр» (Россия)</td>
+<td>28%</td>
+<td>Товарный знак, дизайн, регламенты (non-cash)</td>
+<td>Common shares</td>
+</tr>
+<tr>
+<td>Координатор проекта (Идрис А.А.)</td>
+<td>35–40%</td>
+<td>Команда, операционный контроль, sweat equity</td>
+<td>Common shares (vesting 4y, 1y cliff)</td>
+</tr>
+<tr>
+<td>ESOP / Option Pool</td>
+<td>8%</td>
+<td>Резерв на ключевых FTE</td>
+<td>Options</td>
+</tr>
+<tr>
+<td>Инвесторы Series A</td>
+<td>25–29%</td>
+<td>Cash $4–5M</td>
+<td>Preferred shares (1x non-participating)</td>
+</tr>
+</tbody>
+</table>
+<h3>4.3. Ключевой актив — Товарный Знак</h3>
+<ul>
+<li><strong>Наименование:</strong> FABIAN</li>
+<li><strong>Регистрация:</strong> РФ (Роспатент), 2018 год</li>
+<li><strong>Классы МКТУ:</strong> 32 (минеральная и столовая вода), 35 (продвижение, реклама)</li>
+<li><strong>Текущий правообладатель:</strong> ГК «Центр»</li>
+<li><strong>Действие:</strong> действующий, очередное продление — 2028 год (включено в use-of-funds)</li>
+<li><strong>Дизайн:</strong> разработан LenaMcCoder (2018), полные права передаются в JV в рамках сделки (включено в use-of-funds — выкуп прав)</li>
+</ul>
+<h3>4.4. Стадия проекта</h3>
+<ul>
+<li>Прототип бутылки и этикетки — готов.</li>
+<li>Регистрация Halal-сертификата — в процессе (закрытие до closing раунда).</li>
+<li>Контракт-розливщик в Подмосковье — переговоры на стадии non-binding LOI.</li>
+<li>Команда — основатель + 2 со-основателя на partial commitment, full team hire — после closing.</li>
+</ul>
+<hr>
+</section><section id="5-рынок" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 06</div><h2>5. РЫНОК</h2></div>
+<h3>5.1. Глобальная картина</h3>
+<p>Рынок премиальной бутилированной воды в мире — $79 млрд в 2024 году, CAGR 6,8% до 2030 (Euromonitor, 2024). В сегменте «glass premium HoReCa» — $11 млрд, CAGR 8,2% (выше среднего за счёт регуляторного давления на PET в Европе и США).</p>
+<h3>5.2. TAM / SAM / SOM для FABIAN</h3>
+<p><strong>TAM (Total Addressable Market)</strong> — премиум-вода в HoReCa СНГ.</p>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Объём рынка СНГ premium HoReCa water</td>
+<td>₽42 млрд в год</td>
+</tr>
+<tr>
+<td>Москва + СПб доля</td>
+<td>~58% от РФ HoReCa-премиум</td>
+</tr>
+<tr>
+<td>Стекло как формат (после 01.09.2025)</td>
+<td>~85% премиум-сегмента</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SAM (Serviceable Addressable Market)</strong> — премиум-стекло-HoReCa Москва + СПб + города-миллионники.</p>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SAM РФ (МСК+СПб+10 городов-миллионников)</td>
+<td><strong>₽12 млрд</strong> (консервативная переоценка по финансовому аудиту 11.05.2026; ранее заявлявшиеся ₽18,4 млрд скорректированы вниз)</td>
+</tr>
+<tr>
+<td>Halal-сегмент внутри SAM</td>
+<td>~₽2,0 млрд</td>
+</tr>
+<tr>
+<td>Реалистичный SAM для FABIAN на 5 лет</td>
+<td>₽10 млрд</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SOM (Serviceable Obtainable Market)</strong> — реалистичная доля FABIAN на 5-летнем горизонте.</p>
+<table>
+<thead>
+<tr>
+<th>Сценарий</th>
+<th>Y5 Net Revenue</th>
+<th>Доля SAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conservative</td>
+<td>₽2,7 млрд</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>₽2,9 млрд</td>
+<td>24%</td>
+</tr>
+<tr>
+<td>Stretch</td>
+<td>₽3,0 млрд</td>
+<td>25%</td>
+</tr>
+</tbody>
+</table>
+<p>Comment: SOM скорректирован после пересмотра SAM до консервативной отметки ₽12 млрд. Y5 Net Revenue в финмодели и P&amp;L (Base ₽8,64 млрд) включает выручку всех географий — СНГ-канал (Алматы Y2, Узбекистан/Беларусь Y3) и экспорт ОАЭ/Турция Y4-Y5, поэтому превышает строго «РФ-SAM». Доля FABIAN внутри РФ-SAM в Base-сценарии — ~24%, что обосновано вакуумом после ухода Evian/Perrier/S.Pellegrino и отсутствием локального бренда премиум-уровня в стекле.</p>
+<h3>5.3. Окно открыто — почему именно сейчас</h3>
+<p><strong>Триггер 1 — уход международных брендов (2022–2025):</strong>
+- Evian (Danone) — фактическое сокращение поставок в РФ-HoReCa с Q2 2022.
+- Perrier (Nestlé Waters) — то же.
+- S.Pellegrino + Acqua Panna (Nestlé Sanpellegrino) — то же.
+- Voss — нерегулярные поставки через параллельный импорт, премия 220–280% к довоенной цене.</p>
+<p><strong>Триггер 2 — регуляторное давление на PET:</strong>
+- Постановление Правительства Москвы — запрет одноразовой PET-упаковки в HoReCa с 01.09.2025 (питьевая вода — в списке).
+- Ожидается распространение на Санкт-Петербург (проект Постановления — Q1 2026).
+- Пилотные проекты в Сочи и Казани.</p>
+<p><strong>Триггер 3 — импортозамещение премиум-уровня:</strong>
+- Государственный заказ (Управление Делами Президента, Совет Федерации, региональные администрации) — переход на отечественные премиальные SKU.
+- Корпоративный сегмент (банки, нефтегаз, IT) — внутренняя политика импортозамещения для VIP-зон, переговорных, кейтерингов.</p>
+<p><strong>Триггер 4 — Halal-сегмент:</strong>
+- 25+ млн потребителей-мусульман в РФ.
+- Только 12% премиум-SKU воды имеют действующий Halal-сертификат (Roshalal, 2025).
+- Растущий поток халяльных туристов из Ближнего Востока в МСК+СПб+КМВ.</p>
+<hr>
+</section><section id="6-конкурентный-ландшафт" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 07</div><h2>6. КОНКУРЕНТНЫЙ ЛАНДШАФТ</h2></div>
+<h3>6.1. Ключевые конкуренты в сегменте «премиум-стекло HoReCa СНГ»</h3>
+<table>
+<thead>
+<tr>
+<th>Бренд</th>
+<th>Происхождение</th>
+<th>Канал</th>
+<th>Цена HoReCa (₽/0.75)</th>
+<th>Сильное</th>
+<th>Слабое</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Borjomi (IDS)</td>
+<td>Грузия</td>
+<td>Стекло</td>
+<td>320–380</td>
+<td>Дистрибуция</td>
+<td>Газированная, не нейтральная вкус-партнёрка к ужину</td>
+</tr>
+<tr>
+<td>Bjni / Jermuk</td>
+<td>Армения</td>
+<td>Стекло</td>
+<td>240–290</td>
+<td>Цена</td>
+<td>Низкая премиальность дизайна</td>
+</tr>
+<tr>
+<td>Святой Источник Premium</td>
+<td>РФ</td>
+<td>Стекло</td>
+<td>180–240</td>
+<td>Локальность</td>
+<td>«Мидл-маркет» репутация</td>
+</tr>
+<tr>
+<td>Архыз Vita</td>
+<td>РФ</td>
+<td>Стекло</td>
+<td>220–260</td>
+<td>Доступность</td>
+<td>Низкая узнаваемость в HoReCa</td>
+</tr>
+<tr>
+<td>Voss (паралл. импорт)</td>
+<td>Норвегия</td>
+<td>Стекло</td>
+<td>950–1300</td>
+<td>Премиум-узнаваемость</td>
+<td>Цена, нерегулярность поставок</td>
+</tr>
+<tr>
+<td>Acqua Panna (паралл. имп.)</td>
+<td>Италия</td>
+<td>Стекло</td>
+<td>850–1100</td>
+<td>Партнёрка с шеф-сомелье</td>
+<td>Цена, нерегулярность</td>
+</tr>
+</tbody>
+</table>
+<h3>6.2. Позиционирование FABIAN</h3>
+<p><strong>Целевая цена HoReCa (wholesale):</strong> ₽180 за 0,75л, MSRP в HoReCa: ₽450–650 за 0,75л в зависимости от сегмента заведения.</p>
+<p><strong>Quadrant позиционирования:</strong></p>
+<pre><code>         Премиум-цена
+              ^
+              |
+              |   Voss, Acqua Panna
+              |   (импорт, нерегулярный)
+              |
+              |   *** FABIAN ***
+              |   (премиум-локал, стабильно)
+              |
+              |   Borjomi
+              |
+   ----------+----------&gt; Премиум-дизайн
+              |
+              |   Святой Источник
+              |   Архыз
+              |
+              |   Bjni
+              |
+              v
+         Эконом-цена
+</code></pre>
+<h3>6.3. Барьеры входа для конкурентов</h3>
+<ol>
+<li><strong>IP-блок:</strong> товарный знак FABIAN зарегистрирован, дизайн принадлежит JV.</li>
+<li><strong>Halal-блок:</strong> прохождение сертификации занимает 8–12 месяцев + операционные требования.</li>
+<li><strong>HoReCa-контракты:</strong> годовые эксклюзивы с премиум-сетями (целевой рост — 60% контрактов с MSK+SPb премиум-HoReCa в Y2).</li>
+<li><strong>Розливщик-эксклюзивность:</strong> в плане Y2–Y3 — собственная линия + эксклюзивные слоты на партнёрских розливщиках.</li>
+<li><strong>Бренд-эквити:</strong> инвестиции в маркетинг МСК+СПб (Использование средств, Раздел 8) формируют brand awareness, который не догоняется быстро.</li>
+</ol>
+<hr>
+</section><section id="7-бизнес-модель" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 08</div><h2>7. БИЗНЕС-МОДЕЛЬ</h2></div>
+<h3>7.1. Гибридная модель (контракт-розлив → собственная линия → франшиза)</h3>
+<p><strong>Фаза 1 (Y1–Y2): Контракт-розлив (asset-light).</strong>
+- Партнёрский розливщик в Подмосковье (источник скважины + розливная линия).
+- FABIAN управляет: бренд, дизайн, дистрибуция, B2B-продажи, маркетинг.
+- CapEx: только молды стекла (~$0,8M) и стартовый сток.</p>
+<p><strong>Фаза 2 (Y2–Y3): Собственная линия в МСК-кластере.</strong>
+- Покупка/долгосрочная аренда линии розлива стекло (производительность 6000 бут/час).
+- CapEx: $3,2M (включая SKU 0,5л + 0,75л + 1,0л).
+- Финансирование: Series B или debt-financing под выручку.</p>
+<p><strong>Фаза 3 (Y3–Y5): Франшизная модель регионального розлива.</strong>
+- В каждом крупном регионе СНГ (Алматы, Ташкент, Минск, Тбилиси, Баку) — лицензионный партнёр-розливщик с локальным источником, под брендом FABIAN.
+- Royalty: 6–8% от Net Revenue франчайзи + bottle-mold leasing.</p>
+<h3>7.2. Каналы продаж</h3>
+<p><strong>Прямой B2B HoReCa (60% выручки в Y3):</strong>
+- Сетевые отели категории 4-5* (Aman, Four Seasons, Mandarin Oriental, Lotte, Метрополь, Кемпински).
+- Премиум-рестораны (Novikov Group, White Rabbit Family, AB Restaurants, Аркадий Новиков, Twins Garden).
+- Премиум-кейтеринг (Кейтеринг-Бюро, Figaro Catering).
+- VIP-зоны корпоратов и государственных заказчиков.</p>
+<p><strong>Дистрибьюторский B2B (25% в Y3):</strong>
+- 3 ключевых HoReCa-дистрибьютора в МСК+СПб (Простор, БарПромСнаб, Кулинерия).</p>
+<p><strong>Премиум-ретейл (12% в Y3):</strong>
+- Азбука Вкуса, Глобус Гурмэ, Зелёный Перекрёсток, Метрополис.</p>
+<p><strong>Halal-канал (3% в Y3 → 8% в Y5):</strong>
+- Сеть «Чапан» (партнёрский канал основателя).
+- Этнические магазины.
+- Экспорт ОАЭ/КСА/Кувейт через DMCC.</p>
+<h3>7.3. Unit economics (Base, Y3)</h3>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wholesale price (0,75л)</td>
+<td>₽180</td>
+</tr>
+<tr>
+<td>COGS (вода + стекло + розлив + лог.)</td>
+<td>₽76</td>
+</tr>
+<tr>
+<td>Gross profit</td>
+<td>₽104</td>
+</tr>
+<tr>
+<td>Gross margin</td>
+<td>58%</td>
+</tr>
+<tr>
+<td>S&amp;M на бутылку</td>
+<td>₽21</td>
+</tr>
+<tr>
+<td>G&amp;A на бутылку</td>
+<td>₽12</td>
+</tr>
+<tr>
+<td>Contribution margin</td>
+<td>₽71</td>
+</tr>
+<tr>
+<td>Contribution margin %</td>
+<td>39%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section><section id="8-использование-средств-use-of-funds" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 09</div><h2>8. ИСПОЛЬЗОВАНИЕ СРЕДСТВ (USE OF FUNDS)</h2></div>
+<h3>8.1. Base-сценарий СНГ, <strong>$7,5M</strong> (₽675M) — основной раунд</h3>
+<p>Структура tranching: <strong>$3M + $3M + $1,5M</strong> (привязка к KPI-вехам — closing, Y1 GMV ≥ ₽350M, Y2 EBITDA позитив).</p>
+<table>
+<thead>
+<tr>
+<th>Статья</th>
+<th>Сумма $</th>
+<th>Сумма ₽</th>
+<th>Доля</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Продление и защита товарного знака (РФ + EAC + ОАЭ)</td>
+<td>$0,15M</td>
+<td>₽13,5M</td>
+<td>2,0%</td>
+</tr>
+<tr>
+<td>Выкуп прав на дизайн у LenaMcCoder</td>
+<td>$0,25M</td>
+<td>₽22,5M</td>
+<td>3,3%</td>
+</tr>
+<tr>
+<td>Молды стекла (3 SKU: 0,33л / 0,75л / 1,0л)</td>
+<td>$0,80M</td>
+<td>₽72M</td>
+<td>10,7%</td>
+</tr>
+<tr>
+<td>Стартовый сток (стекло + этикетка + крышка, 6 мес)</td>
+<td>$0,90M</td>
+<td>₽81M</td>
+<td>12,0%</td>
+</tr>
+<tr>
+<td>Контракт-розлив prepayment (depot, 2 партнёра)</td>
+<td>$0,50M</td>
+<td>₽45M</td>
+<td>6,7%</td>
+</tr>
+<tr>
+<td>Маркетинг МСК + СПб + Алматы (Y1-Y2)</td>
+<td>$1,80M</td>
+<td>₽162M</td>
+<td>24,0%</td>
+</tr>
+<tr>
+<td>FTE команда (Y1-Y2, 18→32 человек)</td>
+<td>$1,60M</td>
+<td>₽144M</td>
+<td>21,3%</td>
+</tr>
+<tr>
+<td>Юр-сопровождение JV setup (DMCC + РФ) + IP-портфель</td>
+<td>$0,25M</td>
+<td>₽22,5M</td>
+<td>3,3%</td>
+</tr>
+<tr>
+<td>Сертификация Halal + ISO 22000 + HACCP</td>
+<td>$0,10M</td>
+<td>₽9M</td>
+<td>1,3%</td>
+</tr>
+<tr>
+<td>Подготовка к экспорту ОАЭ/Узб/Бел (Y3)</td>
+<td>$0,30M</td>
+<td>₽27M</td>
+<td>4,0%</td>
+</tr>
+<tr>
+<td>Buffer / contingency 12%</td>
+<td>$0,85M</td>
+<td>₽76,5M</td>
+<td>11,3%</td>
+</tr>
+<tr>
+<td><strong>ИТОГО</strong></td>
+<td><strong>$7,50M</strong></td>
+<td><strong>₽675M</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>8.2. Conservative-минимум, $4,5M (₽405M)</h3>
+<p>Узкий пилот МСК+СПб без выхода в Алматы и без экспорта Y3. Сокращён маркетинговый бюджет, минимальный FTE-набор (12 человек Y1). Используется как fallback-вариант, если raise остановится на $4,5M.</p>
+<table>
+<thead>
+<tr>
+<th>Статья</th>
+<th>Сумма $</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Продление ТЗ + выкуп дизайна</td>
+<td>$0,40M</td>
+</tr>
+<tr>
+<td>Молды + стартовый сток</td>
+<td>$1,40M</td>
+</tr>
+<tr>
+<td>Контракт-розлив prepayment</td>
+<td>$0,30M</td>
+</tr>
+<tr>
+<td>Маркетинг МСК + СПб (Y1)</td>
+<td>$0,90M</td>
+</tr>
+<tr>
+<td>FTE команда (Y1, 12 человек)</td>
+<td>$0,80M</td>
+</tr>
+<tr>
+<td>Юр-сопровождение + сертификации</td>
+<td>$0,20M</td>
+</tr>
+<tr>
+<td>Buffer / contingency</td>
+<td>$0,50M</td>
+</tr>
+<tr>
+<td><strong>ИТОГО</strong></td>
+<td><strong>$4,50M</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>8.3. Stretch-сценарий, $13M (₽1 170M)</h3>
+<p>Дополнительно к Base-набору:</p>
+<table>
+<thead>
+<tr>
+<th>Статья</th>
+<th>Сумма $</th>
+<th>Назначение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Собственная линия розлива (МСК-кластер, 6000 бут/час)</td>
+<td>$2,2M</td>
+<td>Capex Y2</td>
+</tr>
+<tr>
+<td>Расширенный маркетинг (МСК+СПб+Казань+Сочи+Алматы)</td>
+<td>$1,5M</td>
+<td>Параллельный запуск 5 городов</td>
+</tr>
+<tr>
+<td>FTE команда расширенная (32→58 человек к Y3)</td>
+<td>$0,8M</td>
+<td>Региональные KAM, BD-Halal</td>
+</tr>
+<tr>
+<td>Линия экспорта ОАЭ + DMCC-операционка</td>
+<td>$0,7M</td>
+<td>Y3 готовность</td>
+</tr>
+<tr>
+<td>Дополнительные SKU (sparkling/lithium)</td>
+<td>$0,3M</td>
+<td>Y4 launch</td>
+</tr>
+</tbody>
+</table>
+<p>Stretch-сценарий сокращает payback с 3,7 до 3,1 года и поднимает Y5 EBITDA-margin до 25,8%.</p>
+<hr>
+</section><section id="9-финансовый-прогноз-3-сценария-5-лет" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 10</div><h2>9. ФИНАНСОВЫЙ ПРОГНОЗ (3 СЦЕНАРИЯ, 5 ЛЕТ)</h2></div>
+<h3>9.1. Сводная P&amp;L по сценариям (₽, млн)</h3>
+<p><strong>BASE сценарий (СНГ)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Y1</th>
+<th>Y2</th>
+<th>Y3</th>
+<th>Y4</th>
+<th>Y5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Объём, млн бут.</td>
+<td>5</td>
+<td>15</td>
+<td>30</td>
+<td>50</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Net Revenue</td>
+<td>550</td>
+<td>1 670</td>
+<td>3 360</td>
+<td>6 000</td>
+<td>8 640</td>
+</tr>
+<tr>
+<td>COGS</td>
+<td>270</td>
+<td>800</td>
+<td>1 600</td>
+<td>2 600</td>
+<td>3 480</td>
+</tr>
+<tr>
+<td>Gross profit</td>
+<td>280</td>
+<td>870</td>
+<td>1 760</td>
+<td>3 400</td>
+<td>5 160</td>
+</tr>
+<tr>
+<td>Gross margin %</td>
+<td>51%</td>
+<td>52%</td>
+<td>52%</td>
+<td>57%</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>S&amp;M</td>
+<td>220</td>
+<td>470</td>
+<td>760</td>
+<td>1 290</td>
+<td>1 750</td>
+</tr>
+<tr>
+<td>G&amp;A</td>
+<td>140</td>
+<td>290</td>
+<td>520</td>
+<td>910</td>
+<td>1 460</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>(80)</td>
+<td>110</td>
+<td>480</td>
+<td>1 200</td>
+<td>1 950</td>
+</tr>
+<tr>
+<td>EBITDA margin %</td>
+<td>(14,5%)</td>
+<td>6,6%</td>
+<td>14,3%</td>
+<td>20,0%</td>
+<td>22,6%</td>
+</tr>
+<tr>
+<td>D&amp;A</td>
+<td>18</td>
+<td>35</td>
+<td>75</td>
+<td>110</td>
+<td>145</td>
+</tr>
+<tr>
+<td>EBIT</td>
+<td>(98)</td>
+<td>75</td>
+<td>405</td>
+<td>1 090</td>
+<td>1 805</td>
+</tr>
+<tr>
+<td>Tax</td>
+<td>0</td>
+<td>15</td>
+<td>80</td>
+<td>220</td>
+<td>360</td>
+</tr>
+<tr>
+<td>Net Income</td>
+<td>(98)</td>
+<td>60</td>
+<td>325</td>
+<td>870</td>
+<td>1 445</td>
+</tr>
+</tbody>
+</table>
+<p>*Базовый сценарий СНГ. География: Y1 — МСК; Y2 — +СПб+Алматы; Y3 — +UAE/Узб/Бел; Y4 — +sparkling/lithium SKU; Y5 — exit-ready.</p>
+<p><strong>CONSERVATIVE сценарий</strong></p>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Y1</th>
+<th>Y2</th>
+<th>Y3</th>
+<th>Y4</th>
+<th>Y5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Net Revenue</td>
+<td>195</td>
+<td>720</td>
+<td>1 850</td>
+<td>3 400</td>
+<td>5 100</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>(155)</td>
+<td>(75)</td>
+<td>185</td>
+<td>680</td>
+<td>1 020</td>
+</tr>
+<tr>
+<td>EBITDA margin %</td>
+<td>(79%)</td>
+<td>(10%)</td>
+<td>10%</td>
+<td>20%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Net Income</td>
+<td>(160)</td>
+<td>(95)</td>
+<td>110</td>
+<td>480</td>
+<td>740</td>
+</tr>
+</tbody>
+</table>
+<p><strong>STRETCH сценарий</strong></p>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Y1</th>
+<th>Y2</th>
+<th>Y3</th>
+<th>Y4</th>
+<th>Y5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Net Revenue</td>
+<td>820</td>
+<td>2 350</td>
+<td>5 600</td>
+<td>8 200</td>
+<td>12 100</td>
+</tr>
+<tr>
+<td>EBITDA</td>
+<td>(40)</td>
+<td>365</td>
+<td>1 580</td>
+<td>2 540</td>
+<td>3 121</td>
+</tr>
+<tr>
+<td>EBITDA margin %</td>
+<td>(4,9%)</td>
+<td>15,5%</td>
+<td>28,2%</td>
+<td>31,0%</td>
+<td>25,8%</td>
+</tr>
+<tr>
+<td>Net Income</td>
+<td>(78)</td>
+<td>268</td>
+<td>1 220</td>
+<td>2 010</td>
+<td>2 480</td>
+</tr>
+</tbody>
+</table>
+<h3>9.2. Cashflow и инвестиционные метрики</h3>
+<table>
+<thead>
+<tr>
+<th>Метрика</th>
+<th>Conservative</th>
+<th>Base</th>
+<th>Stretch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cumulative cash burn до break-even</td>
+<td>$5,1M</td>
+<td>$4,5M</td>
+<td>$4,2M</td>
+</tr>
+<tr>
+<td>Payback period (years)</td>
+<td>4,8</td>
+<td>3,7</td>
+<td>3,1</td>
+</tr>
+<tr>
+<td>IRR (5y)</td>
+<td>22%</td>
+<td>38%</td>
+<td>52%</td>
+</tr>
+<tr>
+<td>NPV @ 18%</td>
+<td>$4,8M</td>
+<td>$11,3M</td>
+<td>$17,1M</td>
+</tr>
+<tr>
+<td>Terminal EV (Y5, EV/EBITDA <strong>6,5×</strong>)</td>
+<td>$64M</td>
+<td>$140M</td>
+<td>$226M</td>
+</tr>
+</tbody>
+</table>
+<h3>9.3. Ключевые допущения</h3>
+<ul>
+<li>Курс ₽/USD: 90 (фиксированный для модели; сценарий 105 — отдельный robustness test, IRR Base падает до 31%).</li>
+<li>Ставка дисконтирования проектного NPV: 18% (WACC).</li>
+<li>Wholesale price: ₽180/0,75л в Y1, индексация +6% в год.</li>
+<li>COGS-инфляция: 8% в год (стекло, логистика).</li>
+<li>S&amp;M в первые 2 года — front-loaded (60% запуска).</li>
+<li>Налог на прибыль: РФ 20% (стандарт), DMCC 0% (квалификация JV).</li>
+</ul>
+<hr>
+</section><section id="10-условия-сделки-term-sheet-preview" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 11</div><h2>10. УСЛОВИЯ СДЕЛКИ (TERM SHEET PREVIEW)</h2></div>
+<blockquote>
+<p><strong>Дисклеймер:</strong> Настоящий раздел — не обязывающий term sheet, а индикативное описание условий, ожидаемых при структурировании сделки. Финальные условия фиксируются в подписанных Subscription Agreement и Shareholders' Agreement после due diligence.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Условие</th>
+<th>Значение (Base)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Тип бумаги</strong></td>
+<td>Series A Preferred Shares в FABIAN Holding (DMCC)</td>
+</tr>
+<tr>
+<td><strong>Pre-money valuation</strong></td>
+<td>$18M (Base СНГ)</td>
+</tr>
+<tr>
+<td><strong>Размер раунда</strong></td>
+<td><strong>$7,5M (Base СНГ)</strong> / $4,5M (Conservative-минимум) / $13M (Stretch)</td>
+</tr>
+<tr>
+<td><strong>Tranching раунда $7,5M</strong></td>
+<td>$3M closing + $3M (Y1 GMV ≥ ₽350M) + $1,5M (Y2 EBITDA позитив)</td>
+</tr>
+<tr>
+<td><strong>Post-money valuation</strong></td>
+<td>$25,5M (Base) / $22,5M (Conservative) / $34M (Stretch)</td>
+</tr>
+<tr>
+<td><strong>Доля инвестора (Base $7,5M)</strong></td>
+<td>~29,4%</td>
+</tr>
+<tr>
+<td><strong>Доля инвестора (Conservative $4,5M)</strong></td>
+<td>20%</td>
+</tr>
+<tr>
+<td><strong>Доля инвестора (Stretch $13M)</strong></td>
+<td>~38%</td>
+</tr>
+<tr>
+<td><strong>Liquidation preference</strong></td>
+<td>1x non-participating</td>
+</tr>
+<tr>
+<td><strong>Anti-dilution</strong></td>
+<td>Broad-based weighted-average (предпочтительно) или Full ratchet (по договорённости с lead-инвестором)</td>
+</tr>
+<tr>
+<td><strong>Pay-to-play</strong></td>
+<td>Стандартный (отказ от анти-дилюции при неучастии в pro-rata в следующих раундах)</td>
+</tr>
+<tr>
+<td><strong>Pro-rata rights</strong></td>
+<td>Pro-rata participation rights в следующих раундах до Series C</td>
+</tr>
+<tr>
+<td><strong>Информационные права</strong></td>
+<td>Месячная управленческая отчётность, квартальный board pack, годовой аудит (Big-4 или регионального аналога — Б1, Kept, Технологии Доверия)</td>
+</tr>
+<tr>
+<td><strong>Drag-along</strong></td>
+<td>Триггер: голос держателей &gt;65% Common+Preferred при сделке EV ≥ $80M</td>
+</tr>
+<tr>
+<td><strong>Tag-along</strong></td>
+<td>Полный tag-along для всех Preferred при продаже основателями</td>
+</tr>
+<tr>
+<td><strong>Founder vesting</strong></td>
+<td>4 года с 1-year cliff, monthly vesting далее; reverse-vesting на текущие акции основателя</td>
+</tr>
+<tr>
+<td><strong>Acceleration</strong></td>
+<td>Double-trigger: change of control + termination without cause = 50% acceleration</td>
+</tr>
+<tr>
+<td><strong>Board composition</strong></td>
+<td>5 мест: 3 — основатели и ГК «Центр», 2 — инвесторы Series A</td>
+</tr>
+<tr>
+<td><strong>Reserved matters (veto)</strong></td>
+<td>Бюджет, M&amp;A, новый раунд, дивиденды, изменение Articles, найм CEO/CFO</td>
+</tr>
+<tr>
+<td><strong>ROFR / Co-sale</strong></td>
+<td>Для всех Common shares (на основателей и ГК «Центр»)</td>
+</tr>
+<tr>
+<td><strong>Conversion</strong></td>
+<td>Auto-conversion в Common при IPO с pre-money ≥ $80M или по голосу ≥ 60% Preferred</td>
+</tr>
+<tr>
+<td><strong>Redemption</strong></td>
+<td>Через 6 лет по запросу holders ≥ 60% Preferred (cap-протектор для founder, чтобы не сорвать долгосрочный план)</td>
+</tr>
+<tr>
+<td><strong>Закон сделки</strong></td>
+<td>Английское право (English Law), арбитраж DIFC-LCIA</td>
+</tr>
+<tr>
+<td><strong>Эксклюзивность</strong></td>
+<td>60 дней с подписания term sheet</td>
+</tr>
+<tr>
+<td><strong>Закрытие сделки</strong></td>
+<td>До 90 дней с term sheet (включая due diligence)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section><section id="11-exit-сценарии" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 12</div><h2>11. EXIT-СЦЕНАРИИ</h2></div>
+<h3>11.1. Основной сценарий — Strategic M&amp;A (Y5–Y7)</h3>
+<p><strong>Идентифицированные стратегические покупатели:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Покупатель</th>
+<th>Стратегический интерес</th>
+<th>Готовый мультипликатор</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coca-Cola HBC Russia</td>
+<td>Расширение non-carbonated premium</td>
+<td>EV/EBITDA 8–10x</td>
+</tr>
+<tr>
+<td>Multon Partners (бывш. Coca-Cola РФ)</td>
+<td>Замещение в премиум-водном сегменте после ухода Bonaqua premium</td>
+<td>EV/EBITDA 8–9x</td>
+</tr>
+<tr>
+<td>IDS Borjomi</td>
+<td>Кросс-портфельный апгрейд (нейтральная вода для пары к Боржоми)</td>
+<td>EV/EBITDA 7–8x</td>
+</tr>
+<tr>
+<td>PepsiCo Russia</td>
+<td>Если они подтвердят возврат в премиум</td>
+<td>EV/EBITDA 8x</td>
+</tr>
+<tr>
+<td>AB InBev / Efes</td>
+<td>Наценочная категория для бар-каналов</td>
+<td>EV/EBITDA 7x</td>
+</tr>
+<tr>
+<td>Региональный стратег ОАЭ (Mai Dubai, Masafi)</td>
+<td>Точка входа в РФ-халяль и СНГ</td>
+<td>EV/EBITDA 9–11x</td>
+</tr>
+</tbody>
+</table>
+<p>При Y5 EBITDA ₽1,950 млрд (~$21,67M @ ₽90/$) и унифицированном по аудиту мультипликаторе <strong>6,5×</strong> EV = ~$140M (target EV). Старший мультипликатор 8–10× (Coca-Cola HBC, Multon) даёт upside-диапазон $173–217M; <strong>базовое target EV — $140M</strong> (с учётом дисконта на неликвидность и страновой риск).</p>
+<h3>11.2. Альтернативный сценарий — IPO (Y6–Y7)</h3>
+<ul>
+<li><strong>Площадки:</strong> MOEX (Mосковская биржа), AIX (Astana International Exchange), потенциально Tadawul (Saudi Arabia) при доминировании халяль-сегмента.</li>
+<li><strong>Ожидаемая капитализация на IPO:</strong> $180–250M при достижении Y5 показателей Base.</li>
+<li><strong>Ожидаемый floating:</strong> 20–25%.</li>
+<li><strong>Underwriter pool (РФ):</strong> Sberbank CIB, ВТБ Капитал, Альфа Капитал, Тинькофф Инвестиции.</li>
+<li><strong>Underwriter pool (МЕНА):</strong> EFG Hermes, FAB Securities, EFG Saudi.</li>
+</ul>
+<h3>11.3. Secondary / Strategic Buyback (Y4)</h3>
+<p>При перевыполнении Base-плана возможен частичный выкуп акций инвесторов Series A силами стратегического partner-инвестора (state fund, family office, региональный фонд РФПИ-уровня) с premium 1,8–2,2x к invested capital.</p>
+<h3>11.4. IRR при разных exit-сценариях (Base $7,5M @ pre-money $18M, доля 29,4%)</h3>
+<table>
+<thead>
+<tr>
+<th>Сценарий exit</th>
+<th>Год</th>
+<th>EV (Base, 6,5× EBITDA)</th>
+<th>Доля 29,4%</th>
+<th>IRR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Strategic M&amp;A</td>
+<td>Y5</td>
+<td>$140M</td>
+<td>$41,2M</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>Strategic M&amp;A</td>
+<td>Y6</td>
+<td>$165M</td>
+<td>$48,5M</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>IPO</td>
+<td>Y6</td>
+<td>$200M</td>
+<td>$58,8M</td>
+<td>42%</td>
+</tr>
+<tr>
+<td>IPO</td>
+<td>Y7</td>
+<td>$230M</td>
+<td>$67,6M</td>
+<td>39%</td>
+</tr>
+<tr>
+<td>Secondary</td>
+<td>Y4</td>
+<td>2× cash multiple</td>
+<td>$15M</td>
+<td>41%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section><section id="12-команда" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 13</div><h2>12. КОМАНДА</h2></div>
+<h3>12.1. Founder</h3>
+<p><strong>Абдул-Хаким Ахмадович Кагиров — Заказчик / Founder</strong>
+- Заказчик проекта, бенефициар бренда FABIAN.
+- Стратегический фокус: запуск премиум-воды в СНГ и MENA.</p>
+<p><strong>Идрис Аслан Анзорович — Координатор проекта / Executive Partner</strong>
+- Опыт запуска и операционного управления проектами в FMCG / HoReCa СНГ.
+- Носитель сети контактов в премиум-HoReCa МСК и регионов.
+- Параллельный проект — сеть супермаркетов халяль «Чапан» (стратегическая синергия).
+- Контакт: aslankaa@yandex.ru, +7 (969) 795-55-55, +7 (925) 203-77-77, aslankaa.com</p>
+<h3>12.2. Co-founders / Senior team (placeholders, наполняется после closing)</h3>
+<table>
+<thead>
+<tr>
+<th>Роль</th>
+<th>Описание</th>
+<th>Статус</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chief Operating Officer (COO)</td>
+<td>Операционная функция, контракт-розлив, логистика, supply chain. Требования: 10+ лет в premium FMCG, опыт scale-up от $10M до $100M.</td>
+<td>Hire после closing</td>
+</tr>
+<tr>
+<td>Chief Commercial Officer (CCO)</td>
+<td>Sales &amp; BD, прямая работа с премиум-HoReCa, дистрибьюторами, ретейлом. Требования: текущая сеть premium-HoReCa МСК.</td>
+<td>Hire после closing</td>
+</tr>
+<tr>
+<td>Chief Financial Officer (CFO)</td>
+<td>Финансы, IFRS-отчётность, отношения с инвесторами, подготовка к IPO.</td>
+<td>Hire Y2</td>
+</tr>
+<tr>
+<td>Brand Director</td>
+<td>Бренд-стратегия, маркетинг, PR.</td>
+<td>Hire после closing</td>
+</tr>
+<tr>
+<td>Halal &amp; MENA Director</td>
+<td>Развитие Halal-канала в РФ + экспорт ОАЭ/КСА.</td>
+<td>Hire Y1</td>
+</tr>
+</tbody>
+</table>
+<h3>12.3. Стратегический партнёр</h3>
+<p><strong>ГК «Центр» (Россия)</strong> — правообладатель товарного знака FABIAN, передаёт ТЗ и дизайн в JV в качестве non-cash вклада 28%. Сохраняет миноритарное представительство в Совете Директоров.</p>
+<h3>12.4. Эдвайзеры (target post-closing)</h3>
+<ul>
+<li>Эксперт по премиум-HoReCa МСК (former F&amp;B-директор сетевого 5* отеля).</li>
+<li>Эксперт по Halal-сертификации (Roshalal или Esma UAE).</li>
+<li>IB-эдвайзер из локального бутика для подготовки к exit.</li>
+</ul>
+<hr>
+</section><section id="13-риски-и-митигация" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 14</div><h2>13. РИСКИ И МИТИГАЦИЯ</h2></div>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Риск</th>
+<th>Уровень</th>
+<th>Митигация</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Регуляторный risk reversal</strong> — отмена или смягчение запрета PET в HoReCa МСК</td>
+<td>Низкий</td>
+<td>Тренд глобальный; даже без запрета stekло-премиум-сегмент растёт. Базовая модель не зависит критически от запрета.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Возврат международных брендов</strong> (Evian, Perrier) на РФ-рынок</td>
+<td>Средний</td>
+<td>Окно 4–5 лет для строительства бренд-эквити; договоры с HoReCa-сетями годовые с эксклюзивами; закрепление Halal-сегмента, в который Evian не пойдёт.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Курсовой риск</strong> (₽/USD)</td>
+<td>Средний</td>
+<td>Робастность модели тестирована на ₽105/$ — IRR 31% (всё ещё выше WACC). Хеджирование через DMCC-резидентство и долларовую часть выручки экспорта.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Розливщик-зависимость</strong> (Фаза 1)</td>
+<td>Средний</td>
+<td>LOI с двумя альтернативными розливщиками; собственная линия в Фазе 2 (Y2–Y3) снимает риск.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Команда / talent</strong></td>
+<td>Средний</td>
+<td>ESOP 8% для удержания ключевых FTE; vesting основателя 4 года с cliff.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Санкционные ограничения</strong> на JV-холдинг</td>
+<td>Низкий</td>
+<td>DMCC-резидентство нейтрально; основной денежный поток — рублёвый, операционка РФ; экспорт через DMCC.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Сырьевой риск</strong> (стекло, логистика)</td>
+<td>Средний</td>
+<td>Контракты с 2 поставщиками стекла (Балахна + Сергиев Посад); индексация цен в HoReCa-контрактах.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>IP infringement</strong> (попытка фрод-бренда «Фабиан» рядом или копирование дизайна третьими лицами)</td>
+<td>Низкий</td>
+<td>Активный мониторинг Роспатента и ФИПС, юр-бюджет на оппозиции включён в OPEX; договор отчуждения исключительного права на дизайн с LenaMcCoder (шаблон — 11_Договоры/06_Договор_отчуждения_дизайна_LenaMcCoder.md).</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Concentration risk</strong> на 5 крупных HoReCa-клиентах</td>
+<td>Средний</td>
+<td>План диверсификации — top-5 клиентов ≤35% выручки на Y3; активная работа с ретейл-каналом и Halal-сегментом.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Macro / спад HoReCa-сегмента</strong> (рецессия)</td>
+<td>Средний</td>
+<td>Halal-сегмент — anti-cyclical (этнический спрос менее эластичен); ретейл-канал как amortization.</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Налоговая переквалификация DMCC</strong> (если налоговые органы РФ оспорят tax residency)</td>
+<td>Низкий</td>
+<td>Substance-требования DMCC выполняются (офис, директор, операционные расходы); юр-бюджет на CFC-comply включён.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Срыв Halal-сертификации</strong></td>
+<td>Низкий</td>
+<td>Параллельная работа с Roshalal и DUCM; backup-сертификатор Esma UAE.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>Trademark Renewal Risk</strong> — несвоевременное продление ТЗ № 648525 до 24.04.2027</td>
+<td>Низкий (управляемый)</td>
+<td><strong>Митигация по плану:</strong> заявление в ФИПС подаётся до 30.05.2026; пошлина ~25 000 ₽; шаблон полностью подготовлен — см. 11_Договоры/05_Заявление_продление_ТЗ_FABIAN.md; патентный поверенный класса 32 подключён к финальной верификации.</td>
+</tr>
+</tbody>
+</table>
+<h3>13.1. Trademark Renewal Risk — расширенное описание</h3>
+<p>Срок действия исключительного права на товарный знак № 648525 истекает <strong>24 апреля 2027 года</strong>. Согласно ст. 1491 ГК РФ, заявление о продлении подаётся в течение последнего года действия (с 24.04.2026 по 24.04.2027). Рекомендуемая фактическая дата подачи — <strong>до 30 мая 2026 года</strong> для обеспечения временного запаса.</p>
+<p><strong>Сценарий несвоевременного продления (см. финмодель — лист «Trademark Renewal Failure»):</strong> при отсутствии продления охрана прекращается, любое юридическое лицо может зарегистрировать сходное обозначение в классе 32 МКТУ. Финансовый эффект — катастрофический: Net Revenue Y3-Y5 падает на 60–70%, EBITDA уходит в отрицательную зону, NPV @ 18% становится отрицательным (~ −$3,5M), Terminal EV обнуляется. Стоимость бренда падает с $5,0M (Base СНГ) до $1,5–2,0M.</p>
+<p><strong>План митигации:</strong>
+1. Сентябрь 2026 — инструкция патентному поверенному (ICCR Brand IP или Городисский и Партнёры).
+2. Октябрь 2026 — пакет документов готов, пошлина оплачена.
+3. Не позднее 30 мая 2026 — подача заявления в ФИПС.
+4. Февраль 2027 — получение свидетельства о продлении до 24.04.2037.</p>
+<p><strong>Цена своевременного действия — 25 000 ₽. Цена бездействия — потеря $5M справедливой стоимости бренда.</strong> Шаблон заявления полностью подготовлен и доступен в составе пакета документов проекта.</p>
+<hr>
+</section><section id="14-контакты" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 15</div><h2>14. КОНТАКТЫ</h2></div>
+<p><strong>Заказчик:</strong> Абдул-Хаким Ахмадович Кагиров
+<strong>Правообладатель ТЗ:</strong> ООО «Группа Компаний Центр»
+<strong>Координатор проекта:</strong> Идрис Аслан Анзорович
+Email: aslankaa@yandex.ru
+Телефоны: +7 (969) 795-55-55, +7 (925) 203-77-77
+Телефон: +7 (969) 795-55-55 / +7 (925) 203-77-77
+Сайт: aslankaa.com</p>
+<p><strong>Запрос data room:</strong>
+По письменному запросу с подписанным NDA. Формат: secure data room (Intralinks / Datasite / Ansarada-аналог).</p>
+<p><strong>Юр-консультант сделки (стороны Заказчика):</strong>
+Будет назначен после получения term sheet (предварительно — региональный бутик с DMCC-практикой).</p>
+<hr>
+</section><section id="15-приложения" class="chapter">
+  <div class="chapter-header"><div class="chapter-num">Раздел 16</div><h2>15. ПРИЛОЖЕНИЯ</h2></div>
+<h3>Приложение A. Финмодель — сводная таблица (Base-сценарий, СНГ)</h3>
+<table>
+<thead>
+<tr>
+<th>Год</th>
+<th>Y0 (Closing)</th>
+<th>Y1</th>
+<th>Y2</th>
+<th>Y3</th>
+<th>Y4</th>
+<th>Y5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Объём продаж (млн бут.)</td>
+<td>0</td>
+<td>5</td>
+<td>15</td>
+<td>30</td>
+<td>50</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Net Revenue (₽M)</td>
+<td>0</td>
+<td>550</td>
+<td>1 670</td>
+<td>3 360</td>
+<td>6 000</td>
+<td>8 640</td>
+</tr>
+<tr>
+<td>Gross profit (₽M)</td>
+<td>0</td>
+<td>280</td>
+<td>870</td>
+<td>1 760</td>
+<td>3 400</td>
+<td>5 160</td>
+</tr>
+<tr>
+<td>EBITDA (₽M)</td>
+<td>0</td>
+<td>(80)</td>
+<td>110</td>
+<td>480</td>
+<td>1 200</td>
+<td>1 950</td>
+</tr>
+<tr>
+<td>EBITDA margin</td>
+<td>n/a</td>
+<td>(14,5%)</td>
+<td>6,6%</td>
+<td>14,3%</td>
+<td>20,0%</td>
+<td>22,6%</td>
+</tr>
+<tr>
+<td>Net Income (₽M)</td>
+<td>0</td>
+<td>(98)</td>
+<td>60</td>
+<td>325</td>
+<td>870</td>
+<td>1 445</td>
+</tr>
+<tr>
+<td>Cash Position (₽M, EOY)</td>
+<td>405</td>
+<td>235</td>
+<td>165</td>
+<td>470</td>
+<td>1 480</td>
+<td>2 800</td>
+</tr>
+<tr>
+<td>Headcount (FTE)</td>
+<td>4</td>
+<td>12</td>
+<td>24</td>
+<td>38</td>
+<td>52</td>
+<td>65</td>
+</tr>
+</tbody>
+</table>
+<h3>Приложение B. Market data — источники</h3>
+<ol>
+<li>Euromonitor International — Bottled Water Russia &amp; CIS, 2024.</li>
+<li>Statista Premium Bottled Water Market Outlook, 2024–2030.</li>
+<li>Nielsen Russia — HoReCa Premium Beverages Tracker, 2024 H2.</li>
+<li>РБК Маркетинговые Исследования — рынок премиальной воды РФ, 2024.</li>
+<li>РОССТАТ — данные по сегменту «Безалкогольные напитки» (производство и импорт), 2022–2024.</li>
+<li>Постановление Правительства г. Москвы по ограничению PET в HoReCa, действует с 01.09.2025.</li>
+<li>Роспатент — выписка по товарному знаку FABIAN (класс 32, 35).</li>
+<li>Roshalal — реестр Halal-сертифицированных премиум-SKU воды РФ, 2025.</li>
+<li>Внутренние данные по контрактам и LOI с розливщиками и HoReCa-сетями (data room).</li>
+</ol>
+<h3>Приложение C. Расчёт чувствительности (sensitivity analysis)</h3>
+<p><strong>IRR при изменении Y5 EBITDA-margin и exit-мультипликатора:</strong></p>
+<table>
+<thead>
+<tr>
+<th>EBITDA margin Y5 →</th>
+<th>18%</th>
+<th>20%</th>
+<th>22,6%</th>
+<th>25%</th>
+<th>28%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EV/EBITDA 5,5×</td>
+<td>24%</td>
+<td>28%</td>
+<td>32%</td>
+<td>35%</td>
+<td>39%</td>
+</tr>
+<tr>
+<td>EV/EBITDA 6,5× (Base)</td>
+<td>30%</td>
+<td>34%</td>
+<td><strong>38%</strong></td>
+<td>42%</td>
+<td>46%</td>
+</tr>
+<tr>
+<td>EV/EBITDA 7,5×</td>
+<td>35%</td>
+<td>39%</td>
+<td>43%</td>
+<td>47%</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table>
+<p>Жирным — base-case. Единый exit-multiplier 6,5× применён по всем документам проекта (унификация финансового аудита 11.05.2026).</p>
+<p><strong>NPV при изменении WACC и Y5 Net Revenue:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Net Revenue Y5 →</th>
+<th>₽5,2B (Cons)</th>
+<th>₽8,64B (Base)</th>
+<th>₽12,1B (Stretch)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WACC 15%</td>
+<td>$7,2M</td>
+<td>$14,1M</td>
+<td>$21,0M</td>
+</tr>
+<tr>
+<td>WACC 18%</td>
+<td>$4,8M</td>
+<td><strong>$11,3M</strong></td>
+<td>$17,1M</td>
+</tr>
+<tr>
+<td>WACC 22%</td>
+<td>$2,8M</td>
+<td>$8,3M</td>
+<td>$13,1M</td>
+</tr>
+</tbody>
+</table>
+<h3>Приложение D. Дорожная карта milestones (Base)</h3>
+<table>
+<thead>
+<tr>
+<th>Период</th>
+<th>Milestone</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q3 2026</td>
+<td>Closing Series A. JV-структура DMCC + ООО «Фабиан РУС» зарегистрированы.</td>
+</tr>
+<tr>
+<td>Q3 2026</td>
+<td>Передача ТЗ и дизайна в JV; продление ТЗ в Роспатенте.</td>
+</tr>
+<tr>
+<td>Q4 2026</td>
+<td>Подписание контракта с розливщиком; молды стекла в производстве.</td>
+</tr>
+<tr>
+<td>Q4 2026</td>
+<td>Halal-сертификация получена.</td>
+</tr>
+<tr>
+<td>Q1 2027</td>
+<td>Первая партия сходит с линии. Pre-launch HoReCa МСК (10 пилот-сетей).</td>
+</tr>
+<tr>
+<td>Q2 2027</td>
+<td>Полный launch МСК. Старт переговоров СПб.</td>
+</tr>
+<tr>
+<td>Q3 2027</td>
+<td>Launch СПб.</td>
+</tr>
+<tr>
+<td>Q4 2027</td>
+<td>Net Revenue Y1 ≈ ₽550M.</td>
+</tr>
+<tr>
+<td>2028</td>
+<td>Вход в Казань, Сочи, Екатеринбург, Алматы. Подготовка к Series B / debt financing.</td>
+</tr>
+<tr>
+<td>2029</td>
+<td>Запуск собственной линии розлива. Старт экспорта в ОАЭ через DMCC. Узбекистан, Беларусь.</td>
+</tr>
+<tr>
+<td>2030</td>
+<td>Net Revenue Y4 ≈ ₽6,0B. Подготовка exit-материалов. Sparkling/lithium SKU.</td>
+</tr>
+<tr>
+<td>2031</td>
+<td>Achieved Y5 ≈ ₽8,64B. Старт active exit-process (M&amp;A или IPO-ready).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Конец Меморандума.</strong></p>
+<p><em>Версия документа: 1.0 — май 2026.</em>
+<em>Подготовлено: команда FABIAN.</em>
+<em>Координатор: Идрис Аслан Анзорович, aslankaa@yandex.ru.</em></p>
+</section>
+
+</div>
+</body>
+</html>
