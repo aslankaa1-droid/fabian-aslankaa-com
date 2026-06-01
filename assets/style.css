@@ -880,6 +880,26 @@ h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 400; letter-spacing
 }
 .form-card textarea { resize: vertical; min-height: 100px; margin-bottom: 24px; }
 
+/* === CONTACT-CARD (mailto / tel / Telegram / WhatsApp) === */
+.contact-card { text-align: center; }
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contact-actions .btn { min-width: 220px; }
+.contact-disclaimer {
+  font-size: 13px;
+  color: var(--c-text-soft);
+  margin: 0;
+  line-height: 1.5;
+}
+@media (max-width: 720px) {
+  .contact-actions .btn { width: 100%; min-width: 0; }
+}
+
 /* === CONTACT === */
 .contact-grid {
   display: grid;

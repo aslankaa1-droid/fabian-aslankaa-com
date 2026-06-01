@@ -106,6 +106,11 @@ const T = {
     "partners.eyebrow": "HoReCa",
     "partners.h": "Стать партнёром бренда",
     "partners.lede": "Открываем приём заявок от ресторанов, отелей и сетей в Москве и Санкт-Петербурге на пилотный листинг с июля 2026 года.",
+    "partners.cta_tg": "Написать в Telegram",
+    "partners.cta_wa": "WhatsApp",
+    "partners.cta_email": "aslankaa@yandex.ru",
+    "partners.cta_tel": "+7 (969) 795-55-55",
+    "partners.cta_note": "Сайт не собирает персональных данных. Свяжитесь с проектом напрямую через любой из каналов выше.",
     "form.name": "Имя",
     "form.email": "E-mail",
     "form.venue": "Заведение",
@@ -189,6 +194,11 @@ const T = {
 
     "partners.eyebrow": "HoReCa", "partners.h": "Become a brand partner",
     "partners.lede": "We accept applications from restaurants, hotels and chains in Moscow and Saint Petersburg for the pilot listing starting July 2026.",
+    "partners.cta_tg": "Message on Telegram",
+    "partners.cta_wa": "WhatsApp",
+    "partners.cta_email": "aslankaa@yandex.ru",
+    "partners.cta_tel": "+7 (969) 795-55-55",
+    "partners.cta_note": "This site does not collect personal data. Please contact the project directly via any of the channels above.",
     "form.name": "Name", "form.email": "E-mail", "form.venue": "Venue",
     "form.city": "City", "form.phone": "Phone", "form.message": "Comments",
     "form.submit": "Submit",
@@ -269,6 +279,11 @@ const T = {
     "inv.html": "Ouvrir en ligne",
     "partners.eyebrow": "HoReCa", "partners.h": "Devenir partenaire",
     "partners.lede": "Nous acceptons les candidatures de restaurants, hôtels et chaînes à Moscou et Saint-Pétersbourg pour le listing pilote à partir de juillet 2026.",
+    "partners.cta_tg": "Écrire sur Telegram",
+    "partners.cta_wa": "WhatsApp",
+    "partners.cta_email": "aslankaa@yandex.ru",
+    "partners.cta_tel": "+7 (969) 795-55-55",
+    "partners.cta_note": "Ce site ne collecte aucune donnée personnelle. Veuillez contacter le projet directement via l'un des canaux ci-dessus.",
     "form.name": "Nom", "form.email": "E-mail", "form.venue": "Établissement",
     "form.city": "Ville", "form.phone": "Téléphone", "form.message": "Commentaires", "form.submit": "Envoyer",
     "contact.eyebrow": "Contact", "contact.h": "Joindre le projet",
@@ -346,6 +361,11 @@ const T = {
     "inv.html": "افتح عبر الإنترنت",
     "partners.eyebrow": "HoReCa", "partners.h": "كن شريكًا للعلامة",
     "partners.lede": "نقبل طلبات المطاعم والفنادق والسلاسل في موسكو وسانت بطرسبرغ لإدراج تجريبي ابتداءً من يوليو 2026.",
+    "partners.cta_tg": "راسلنا عبر تيليجرام",
+    "partners.cta_wa": "واتساب",
+    "partners.cta_email": "aslankaa@yandex.ru",
+    "partners.cta_tel": "+7 (969) 795-55-55",
+    "partners.cta_note": "هذا الموقع لا يجمع أي بيانات شخصية. يُرجى التواصل مع المشروع مباشرةً عبر إحدى القنوات أعلاه.",
     "form.name": "الاسم", "form.email": "البريد", "form.venue": "المؤسسة",
     "form.city": "المدينة", "form.phone": "الهاتف", "form.message": "تعليقات", "form.submit": "إرسال",
     "contact.eyebrow": "تواصل", "contact.h": "تواصل مع المشروع",
@@ -536,23 +556,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
   document.querySelectorAll(".reveal").forEach(el => io.observe(el));
 
-  /* Forms */
-  document.querySelectorAll("form").forEach(f => {
-    f.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const fd = new FormData(f);
-      const data = Object.fromEntries(fd.entries());
-      console.log("Form data:", data);
-      f.reset();
-      const btn = f.querySelector("button[type='submit']");
-      if (btn) {
-        const orig = btn.textContent;
-        btn.textContent = "✓";
-        btn.disabled = true;
-        setTimeout(() => { btn.textContent = orig; btn.disabled = false; }, 2200);
-      }
-    });
-  });
+  /* Forms — удалены: сайт не собирает ПДн, контакт идёт напрямую через mailto/tel/Telegram/WhatsApp */
 
   /* Cookie */
   const cb = document.getElementById("cookieBanner");
