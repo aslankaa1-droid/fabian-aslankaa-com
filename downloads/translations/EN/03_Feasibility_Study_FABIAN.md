@@ -2,8 +2,8 @@
 
 ## Project FABIAN — Premium Table Water for HoReCa CIS
 
-**Version 1.0 — confidential**
-**Sponsor:** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Confidential**
+**Sponsor:** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Trademark holder:** GC Center (Russia)
 **Date:** May 2026
 
@@ -302,5 +302,5 @@ Cumulatively over 5 years — approximately **RUB 3.6 billion** in taxes from th
 5. The principal operational risk — contract bottler failure — is mitigated by a second contract and batch audit.
 
 **Signature and contacts:**
-Aslan Idris Anzorovich — project sponsor, executive partner
-Email: idriskaaa@gmail.com
+Abdul-Hakim Kagirov — project sponsor, executive partner
+Email: aslankaa@yandex.ru

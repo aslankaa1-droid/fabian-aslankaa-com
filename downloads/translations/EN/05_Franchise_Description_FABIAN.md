@@ -2,7 +2,7 @@
 
 ## Premium Table Water Bottling Franchise
 
-**Sponsor and franchisor:** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Sponsor and franchisor:** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Trademark holder:** GC Center (Russia)
 **Legal franchise contour:** Fabian Water JV, DMCC (UAE)
 
@@ -142,8 +142,8 @@ Quality control is a mandatory network-wide condition that determines the right 
 
 **Franchise application contact:**
 
-**Aslan Idris Anzorovich** — franchisor representative
-Email: **idriskaaa@gmail.com**
+**Abdul-Hakim Kagirov** — franchisor representative
+Email: **aslankaa@yandex.ru**
 
 Trademark holder: GC Center (Russia)
 Legal receiving entity for applications: Fabian Water JV, DMCC, UAE

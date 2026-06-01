@@ -2,7 +2,7 @@
 
 **Целевой URL:** `https://fabian.aslankaa.com/`
 **Заказчик:** Абдул-Хаким Ахмадович Кагиров
-**Координатор:** Идрис Аслан Анзорович
+**Координатор:** Абдул-Хаким Кагиров
 
 ---
 
@@ -55,7 +55,7 @@
 ### Шаг 1. Создание репозитория на GitHub
 
 ```bash
-cd "E:/Проекты Аслана/Fabian Water HoReCa СНГ/15_Деплой_fabian_aslankaa_com"
+cd "E:/Проекты Аслана/Fabian Water HoReCa СНГ-1/15_Деплой_fabian_aslankaa_com"
 git init
 git add .
 git commit -m "Initial commit: FABIAN landing"
@@ -128,7 +128,7 @@ tailscale set --accept-dns=true
 После любых правок в исходниках (`07b_Лендинг_v2_с_фото_бутылки/` или `12_Оценка_бренда/`):
 
 ```bash
-cd "E:/Проекты Аслана/Fabian Water HoReCa СНГ/15_Деплой_fabian_aslankaa_com"
+cd "E:/Проекты Аслана/Fabian Water HoReCa СНГ-1/15_Деплой_fabian_aslankaa_com"
 # (если меняли отчёты — пересобрать сначала через _build_valuation.py и _build_memorandum.py)
 # затем sync обновлений:
 robocopy "../07b_Лендинг_v2_с_фото_бутылки" "." /MIR /XD .git
@@ -159,5 +159,5 @@ GitHub Pages обновится автоматически через 1-2 мин
 | Роль | ФИО | Контакты |
 |---|---|---|
 | Заказчик / Правообладатель ТЗ | Абдул-Хаким Ахмадович Кагиров (CENTER GROUP COMPANY) | через координатора |
-| Координатор проекта | Идрис Аслан Анзорович | aslankaa@yandex.ru, +7 (969) 795-55-55, +7 (925) 203-77-77 |
+| Координатор проекта | Абдул-Хаким Кагиров | aslankaa@yandex.ru, +7 (969) 795-55-55, +7 (925) 203-77-77 |
 | Технический деплой | (выполняется на машине Аслана) | aslankaa@yandex.ru |

@@ -32,4 +32,4 @@ Copy-Item "E:\Проекты Аслана\Fabian Water HoReCa СНГ\13_Пере
 
 ## Contacts
 
-Aslan Idris Anzorovich — idriskaaa@gmail.com
+Abdul-Hakim Kagirov — aslankaa@yandex.ru

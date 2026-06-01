@@ -36,4 +36,4 @@ Working draft. Avant tout usage formel (envoi à un investisseur, signature, dé
 
 ## Contacts
 
-Aslan Idris Anzorovich — idriskaaa@gmail.com
+Abdul-Hakim Kagirov — aslankaa@yandex.ru

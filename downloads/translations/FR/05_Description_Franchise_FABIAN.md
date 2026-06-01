@@ -4,7 +4,7 @@
 
 ## Franchise d'embouteillage d'eau de table premium
 
-**Promoteur et franchiseur :** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Promoteur et franchiseur :** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Titulaire de la marque :** GC Centre (Russie)
 **Contour juridique de la franchise :** Fabian Water JV, DMCC (EAU)
 
@@ -144,8 +144,8 @@ Le contrôle qualité est une condition obligatoire de l'ensemble du réseau et 
 
 **Contact candidature franchise :**
 
-**Aslan Idris Anzorovich** — représentant du franchiseur
-Email : **idriskaaa@gmail.com**
+**Abdul-Hakim Kagirov** — représentant du franchiseur
+Email : **aslankaa@yandex.ru**
 
 Titulaire de la marque : GC Centre (Russie)
 Entité réceptrice juridique des candidatures : Fabian Water JV, DMCC, EAU

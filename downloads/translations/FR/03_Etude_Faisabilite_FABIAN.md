@@ -4,8 +4,8 @@
 
 ## Projet FABIAN — Eau de table haut de gamme pour la CHR/HoReCa de la CEI
 
-**Version 1.0 — confidentiel**
-**Promoteur :** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Confidentiel**
+**Promoteur :** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Titulaire de la marque :** GC Centre (Russie)
 **Date :** mai 2026
 
@@ -304,5 +304,5 @@ Cumulé sur 5 ans — environ **3,6 milliards RUB** de prélèvements (contour r
 5. Risque opérationnel principal — défaillance de l'embouteilleur — mitigé par second contrat et audit lot par lot.
 
 **Signature et contacts :**
-Aslan Idris Anzorovich — promoteur du projet, partenaire exécutif
-Email : idriskaaa@gmail.com
+Abdul-Hakim Kagirov — promoteur du projet, partenaire exécutif
+Email : aslankaa@yandex.ru

@@ -35,4 +35,4 @@ downloads/translations/
 
 ## Контакты
 
-Аслан Идрис Анзорович — idriskaaa@gmail.com
+Абдул-Хаким Кагиров — aslankaa@yandex.ru

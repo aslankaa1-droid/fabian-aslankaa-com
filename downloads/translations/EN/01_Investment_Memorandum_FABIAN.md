@@ -9,8 +9,8 @@
 **Model FX rate:** RUB 90 / USD 1 (reviewed quarterly)
 
 **Prepared for qualified investors only**
-**Sponsor / Contact:** Aslan Idris Anzorovich
-**Email:** idriskaaa@gmail.com
+**Sponsor / Contact:** Abdul-Hakim Kagirov
+**Email:** aslankaa@yandex.ru
 **Website:** aslankaa.com
 
 ---
@@ -146,7 +146,7 @@ Round requested: **$4–5M (Series A)** — pilot in Moscow and Saint Petersburg
 | Shareholder | Stake | Contribution | Security |
 |---|---|---|---|
 | GC Center (Russia) | 28% | Trademark, design, regulations (non-cash) | Common shares |
-| Founder (Aslan Idris Anzorovich) | 35–40% | Team, operational control, sweat equity | Common shares (4y vesting, 1y cliff) |
+| Founder (Abdul-Hakim Kagirov) | 35–40% | Team, operational control, sweat equity | Common shares (4y vesting, 1y cliff) |
 | ESOP / Option Pool | 8% | Reserve for key hires | Options |
 | Series A investors | 25–29% | Cash $4–5M | Preferred shares (1x non-participating) |
 
@@ -501,12 +501,12 @@ If the Base plan is exceeded, a partial buyback of Series A investor shares is f
 
 ### 12.1. Founder
 
-**Aslan Idris Anzorovich — Founder & CEO**
+**Abdul-Hakim Kagirov — Founder & CEO**
 - Founder of the project.
 - Experience in launching and operating FMCG / HoReCa projects across the CIS.
 - Holds a network of contacts in Moscow and regional premium HoReCa.
 - Parallel project — "Chapan" halal supermarket chain (strategic synergy).
-- Contact: idriskaaa@gmail.com, aslankaa.com
+- Contact: aslankaa@yandex.ru, aslankaa.com
 
 ### 12.2. Co-founders / Senior Team (placeholders, filled post-closing)
 
@@ -541,7 +541,7 @@ If the Base plan is exceeded, a partial buyback of Series A investor shares is f
 | 5 | **Team / talent** | Medium | 8% ESOP to retain key FTEs; founder vesting of 4 years with cliff. |
 | 6 | **Sanctions exposure** on the JV holding | Low | DMCC residency is neutral; the main cash flow is rouble-denominated through the Russian OpCo, with exports routed via DMCC. |
 | 7 | **Raw materials risk** (glass, logistics) | Medium | Contracts with two glass suppliers (Balakhna + Sergiev Posad); price indexation in HoReCa contracts. |
-| 8 | **Brand squatting / IP spoofing** (attempt at a "Fabian" copycat) | Low | Active monitoring of Rospatent and FIPS; opposition budget included in OpEx. |
+| 8 | **Brand squatting / IP infringement** (attempt at a "Fabian" copycat) | Low | Active monitoring of Rospatent and FIPS; opposition budget included in OpEx. |
 | 9 | **Concentration risk** on 5 large HoReCa clients | Medium | Diversification plan — top 5 clients ≤ 35% of revenue in Y3; active development of retail and halal channels. |
 | 10 | **Macro / HoReCa downturn** (recession) | Medium | Halal segment is anti-cyclical (ethnic demand is less elastic); retail channel provides amortisation. |
 | 11 | **Tax requalification of DMCC** (if Russian tax authorities challenge tax residency) | Low | DMCC substance requirements (office, director, operating costs) are met; CFC compliance budget included. |
@@ -551,9 +551,9 @@ If the Base plan is exceeded, a partial buyback of Series A investor shares is f
 
 ## 14. CONTACTS
 
-**Aslan Idris Anzorovich**
+**Abdul-Hakim Kagirov**
 Founder & CEO, FABIAN
-Email: idriskaaa@gmail.com
+Email: aslankaa@yandex.ru
 Website: aslankaa.com
 
 **Data room request:**
@@ -634,4 +634,4 @@ Base case in bold.
 
 *Document version: 1.0 — May 2026.*
 *Prepared by: the FABIAN team.*
-*Contact: Aslan Idris Anzorovich, idriskaaa@gmail.com.*
+*Contact: Abdul-Hakim Kagirov, aslankaa@yandex.ru.*

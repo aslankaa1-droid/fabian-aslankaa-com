@@ -2,9 +2,9 @@
 
 ## FABIAN — Premium Table Water for HoReCa CIS
 
-**Version 1.0 — confidential**
+**Confidential**
 **Prepared for:** investors and strategic partners
-**Project sponsor:** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Project sponsor:** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Trademark holder:** GC Center (Russia)
 **Date:** May 2026
 
@@ -43,7 +43,7 @@ FABIAN is a premium still table water in glass packaging (0.33L and 0.75L format
 
 ### 2.1. Company
 
-The project is initiated by GC Center (Russia, holder of the FABIAN trademark) jointly with the sponsor — Aslan Idris Anzorovich, acting as initiator and executive partner. The legal architecture is two-tier:
+The project is initiated by GC Center (Russia, holder of the FABIAN trademark) jointly with the sponsor — Abdul-Hakim Kagirov, acting as initiator and executive partner. The legal architecture is two-tier:
 
 - **Fabian Water JV (DMCC, UAE)** — holding company, holder of international IP, payments centre for CIS and overseas franchisees, issuer of investment instruments.
 - **LLC "FABIAN"** (Russia) — operating contour: production contracts, distribution, marketing, hiring, taxes in Russia.
@@ -363,5 +363,5 @@ Gross monthly payroll for the full Russian team: ~RUB 7.2M; including social con
 - F. Technical specifications and quality regulations (folder 03_ТУ_и_регламенты).
 
 **Project contacts:**
-Aslan Idris Anzorovich — sponsor, executive partner
-Email: idriskaaa@gmail.com
+Abdul-Hakim Kagirov — sponsor, executive partner
+Email: aslankaa@yandex.ru

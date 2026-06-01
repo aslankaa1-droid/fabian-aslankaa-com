@@ -5,7 +5,7 @@
 ## مشروع FABIAN — مياه مائدة فاخرة لقطاع HoReCa في رابطة الدول المستقلة
 
 **الإصدار 1.0 — سرّي**
-**الراعي:** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**الراعي:** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **مالك العلامة:** مجموعة شركات سنتر / GC Center (روسيا)
 **التاريخ:** مايو 2026
 
@@ -298,5 +298,5 @@ Payback المحاسبي = **3.7 سنة**.
 5. المخاطرة التشغيلية الرئيسية — تعطل المعبِّئ — مُخفَّفة بعقدٍ ثانٍ وتدقيق دفعات.
 
 **التوقيع والاتصالات:**
-Aslan Idris Anzorovich — راعي المشروع، شريك تنفيذي
-البريد: idriskaaa@gmail.com
+Abdul-Hakim Kagirov — راعي المشروع، شريك تنفيذي
+البريد: aslankaa@yandex.ru

@@ -4,9 +4,9 @@
 
 ## FABIAN — Eau de table haut de gamme pour la CHR/HoReCa de la CEI
 
-**Version 1.0 — confidentiel**
+**Confidentiel**
 **Préparé pour :** investisseurs et partenaires stratégiques
-**Promoteur du projet :** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**Promoteur du projet :** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **Titulaire de la marque :** GC Centre (Russie)
 **Date :** mai 2026
 
@@ -45,7 +45,7 @@ FABIAN est une eau de table plate haut de gamme en bouteille verre (formats 0,33
 
 ### 2.1. Société
 
-Le projet est initié par le Groupe GC Centre (titulaire de la marque FABIAN, Russie) conjointement avec Aslan Idris Anzorovich, agissant comme initiateur et partenaire exécutif. L'architecture juridique est à deux niveaux :
+Le projet est initié par le Groupe GC Centre (titulaire de la marque FABIAN, Russie) conjointement avec Abdul-Hakim Kagirov, agissant comme initiateur et partenaire exécutif. L'architecture juridique est à deux niveaux :
 
 - **Fabian Water JV (DMCC, EAU)** — société holding, titulaire de l'IP internationale, centre de règlement avec les franchisés CEI et étrangers, émetteur des instruments d'investissement.
 - **LLC « FABIAN »** (Russie) — contour opérationnel : contrats de production, distribution, marketing, recrutement, taxes en Russie.
@@ -365,5 +365,5 @@ Paie brute mensuelle équipe russe complète : ~7,2 M RUB ; charges sociales inc
 - F. Spécifications techniques et règlements qualité (dossier 03_ТУ_и_регламенты).
 
 **Contacts du projet :**
-Aslan Idris Anzorovich — promoteur, partenaire exécutif
-Email : idriskaaa@gmail.com
+Abdul-Hakim Kagirov — promoteur, partenaire exécutif
+Email : aslankaa@yandex.ru

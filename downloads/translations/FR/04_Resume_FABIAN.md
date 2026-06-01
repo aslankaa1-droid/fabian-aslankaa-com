@@ -41,6 +41,6 @@ Payback **3,7 ans**. Valeur d'entreprise terminale **$130M**.
 ---
 
 **Contacts :**
-Aslan Idris Anzorovich — promoteur, partenaire exécutif
-Email : idriskaaa@gmail.com
+Abdul-Hakim Kagirov — promoteur, partenaire exécutif
+Email : aslankaa@yandex.ru
 Titulaire de la marque : GC Centre (Russie)

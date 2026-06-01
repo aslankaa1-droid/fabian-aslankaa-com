@@ -39,6 +39,6 @@ Payback **3.7 years**. Terminal Enterprise Value **$130M**.
 ---
 
 **Contacts:**
-Aslan Idris Anzorovich — sponsor, executive partner
-Email: idriskaaa@gmail.com
+Abdul-Hakim Kagirov — sponsor, executive partner
+Email: aslankaa@yandex.ru
 Trademark holder: GC Center (Russia)

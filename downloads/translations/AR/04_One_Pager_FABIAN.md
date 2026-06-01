@@ -41,6 +41,6 @@ Payback **3.7 سنة**. القيمة المؤسسية النهائية **$130M**
 ---
 
 **الاتصالات:**
-Aslan Idris Anzorovich — راعي، شريك تنفيذي
-البريد: idriskaaa@gmail.com
+Abdul-Hakim Kagirov — راعي، شريك تنفيذي
+البريد: aslankaa@yandex.ru
 مالك العلامة: مجموعة شركات سنتر / GC Center (روسيا)

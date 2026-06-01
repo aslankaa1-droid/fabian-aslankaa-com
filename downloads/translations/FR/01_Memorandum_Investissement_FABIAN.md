@@ -11,8 +11,8 @@
 **Taux de change du modèle :** 90 RUB / 1 USD (révisé trimestriellement)
 
 **Préparé exclusivement pour investisseurs qualifiés**
-**Promoteur / Contact :** Aslan Idris Anzorovich
-**Email :** idriskaaa@gmail.com
+**Promoteur / Contact :** Abdul-Hakim Kagirov
+**Email :** aslankaa@yandex.ru
 **Site web :** aslankaa.com
 
 ---
@@ -148,7 +148,7 @@ Tour demandé : **$4–5M (Series A)** — pilote à Moscou et Saint-Pétersbour
 | Actionnaire | Part | Apport | Type de titre |
 |---|---|---|---|
 | GC Centre (Russie) | 28% | Marque, design, règlements (non-cash) | Actions ordinaires |
-| Fondateur (Aslan Idris Anzorovich) | 35–40% | Équipe, contrôle opérationnel, sweat equity | Actions ordinaires (vesting 4 ans, cliff 1 an) |
+| Fondateur (Abdul-Hakim Kagirov) | 35–40% | Équipe, contrôle opérationnel, sweat equity | Actions ordinaires (vesting 4 ans, cliff 1 an) |
 | ESOP / pool d'options | 8% | Réserve recrutements clés | Options |
 | Investisseurs Series A | 25–29% | Cash $4–5M | Actions préférentielles (1x non-participating) |
 
@@ -503,12 +503,12 @@ En cas de surperformance par rapport au plan Base, un rachat partiel des actions
 
 ### 12.1. Fondateur
 
-**Aslan Idris Anzorovich — Founder & CEO**
+**Abdul-Hakim Kagirov — Founder & CEO**
 - Fondateur du projet.
 - Expérience opérationnelle dans des projets FMCG / CHR dans la CEI.
 - Réseau de contacts dans la CHR premium moscovite et régionale.
 - Projet parallèle — chaîne de supermarchés halal « Chapan » (synergie stratégique).
-- Contact : idriskaaa@gmail.com, aslankaa.com
+- Contact : aslankaa@yandex.ru, aslankaa.com
 
 ### 12.2. Co-fondateurs / Équipe senior (placeholders, complétés post-closing)
 
@@ -553,9 +553,9 @@ En cas de surperformance par rapport au plan Base, un rachat partiel des actions
 
 ## 14. CONTACTS
 
-**Aslan Idris Anzorovich**
+**Abdul-Hakim Kagirov**
 Founder & CEO, FABIAN
-Email : idriskaaa@gmail.com
+Email : aslankaa@yandex.ru
 Site web : aslankaa.com
 
 **Demande de data room :**
@@ -636,4 +636,4 @@ Base case en gras.
 
 *Version du document : 1.0 — mai 2026.*
 *Préparé par : équipe FABIAN.*
-*Contact : Aslan Idris Anzorovich, idriskaaa@gmail.com.*
+*Contact : Abdul-Hakim Kagirov, aslankaa@yandex.ru.*

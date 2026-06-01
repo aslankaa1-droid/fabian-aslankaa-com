@@ -4,7 +4,7 @@
 
 ## امتياز تعبئة مياه المائدة الفاخرة
 
-**الراعي ومانح الامتياز:** Aslan Idris Anzorovich, idriskaaa@gmail.com
+**الراعي ومانح الامتياز:** Abdul-Hakim Kagirov, aslankaa@yandex.ru
 **مالك العلامة:** مجموعة شركات سنتر / GC Center (روسيا)
 **العقد القانوني للامتياز:** Fabian Water JV, DMCC (الإمارات)
 
@@ -144,8 +144,8 @@
 
 **جهة الاتصال لطلبات الامتياز:**
 
-**Aslan Idris Anzorovich** — ممثل مانح الامتياز
-البريد: **idriskaaa@gmail.com**
+**Abdul-Hakim Kagirov** — ممثل مانح الامتياز
+البريد: **aslankaa@yandex.ru**
 
 مالك العلامة: مجموعة شركات سنتر / GC Center (روسيا)
 الكيان القانوني المستلم للطلبات: Fabian Water JV, DMCC, الإمارات
